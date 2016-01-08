@@ -47,11 +47,6 @@ namespace HTTPServer
         {
             string[] seprators = new string[1];
             seprators[0] = "\r\n";
-            //TODO: parse the receivedRequest using the \r\n delimeter   
-            // check that there is atleast 3 lines: Request line, Host Header, Blank line (usually 4 lines with the last empty line for empty content)
-            // Parse Request line
-            // Validate blank line exists
-            // Load header lines into HeaderLines dictionary
             contentLines = requestString.Split(seprators, StringSplitOptions.None);
             requestLines = contentLines[0].Split(' ');
             headerLines = new Dictionary<string, string>();
@@ -72,9 +67,9 @@ namespace HTTPServer
             {
                 if (requestLines[0] == "GET")
                     method = RequestMethod.GET;
-                else if (requestLines[1] == "HEAD")
+                else if (requestLines[0] == "HEAD")
                     method = RequestMethod.HEAD;
-                else if (requestLines[2] == "POST")
+                else if (requestLines[0] == "POST")
                     method = RequestMethod.POST;
                 relativeURI = requestLines[1].Trim('/');
                     

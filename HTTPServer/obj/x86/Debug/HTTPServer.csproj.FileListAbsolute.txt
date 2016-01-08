@@ -7,3 +7,8 @@ D:\Lectures & Labs\4th Year\Computer Network\Networks' Project [2015-2016]\Templ
 D:\Lectures & Labs\4th Year\Computer Network\Networks' Project [2015-2016]\Template[2015-2016]\HTTPServer\obj\x86\Debug\HTTPServer.exe
 D:\Lectures & Labs\4th Year\Computer Network\Networks' Project [2015-2016]\Template[2015-2016]\HTTPServer\obj\x86\Debug\HTTPServer.pdb
 D:\Lectures & Labs\4th Year\Computer Network\Networks' Project [2015-2016]\Template[2015-2016]\HTTPServer\obj\x86\Debug\HTTPServer.csprojResolveAssemblyReference.cache
+D:\Projects\Visual Studio 2013\Projects\HTTP WebServer\HTTPServer\obj\x86\Debug\HTTPServer.exe
+D:\Projects\Visual Studio 2013\Projects\HTTP WebServer\HTTPServer\obj\x86\Debug\HTTPServer.pdb
+D:\Projects\Visual Studio 2013\Projects\HTTP WebServer\HTTPServer\bin\Debug\HTTPServer.exe
+D:\Projects\Visual Studio 2013\Projects\HTTP WebServer\HTTPServer\bin\Debug\HTTPServer.pdb
+D:\Projects\Visual Studio 2013\Projects\HTTP WebServer\HTTPServer\obj\x86\Debug\HTTPServer.csprojResolveAssemblyReference.cache
